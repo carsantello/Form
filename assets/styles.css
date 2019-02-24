@@ -1,0 +1,63 @@
+/* para generar variables en CSS*/
+:root {
+  --primary-color:    #7494EA;
+  --secondary-color:  #D138BF;
+  --background-color: #494947;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0.05px solid yellow;
+  white-space: nowrap; /* para que no se traslape el contenido*/
+}
+body {
+  background-color: white;
+}
+header {
+  background-image: url(c:/img/portada.jpg);
+  height: 100px;
+  width: 100%;
+  text-align: 50vh;
+}
+header h1 {
+  text-align: center;
+  margin-top: 31.5px;
+  font-family: Coiny;
+}
+main {
+  border-radius: 2px;
+}
+
+.pedidos {
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+  background-color: var(--background-color);
+  height: 70vh;
+  width: 70%;
+  vertical-align: top;
+}
+
+.desserts {
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+  background-color: pink;
+  height: 70vh;
+  width: 30%;
+  vertical-align: top;
+}
+
+.ordenes {
+  background-color: white;
+  height: 70vh;
+}
+
+.footer {
+  background-color: red;
+  height: 70vh;
+  vertical-align: center;
+  text-align: center;
+
+
+}
